@@ -24,8 +24,34 @@ Explicar, com as próprias palavras:
 | [roteiro.md](roteiro.md) | Roteiro slide a slide, com falas sugeridas |
 | [analise-apresentacao.md](analise-apresentacao.md) | Divergências entre os slides e a realidade — **leia antes da aula** |
 | [apresentacao/](apresentacao/) | O `.pptx` da aula |
+| [impressos/](impressos/) | **Levar impresso:** Folha de Fechamento e Mapa da Turma |
 | [plano-a-laboratorio/](plano-a-laboratorio/) | Se o laboratório funcionar |
 | [plano-b-dinamica/](plano-b-dinamica/) | Se não funcionar |
+
+## Versões da apresentação
+
+| Arquivo | O que é |
+|---|---|
+| `Aula_01_Desenvolvimento_Mobile.pptx` | Original, preservado |
+| **`Aula_01_Desenvolvimento_Mobile_v2.pptx`** | **Use esta.** 22 slides, redesenhada |
+
+Roteiro visual com cada slide renderizado ao lado das notas de condução:
+https://claude.ai/code/artifact/b6c16db4-6ba3-4f98-9f9a-a7d6b0fcbab1
+
+**O que mudou na v2:** dois slides novos (08 PWA, 13 Mitos), correção do Kotlin
+do slide 18 e do comando Expo do 19, linha de tempo de build no 20, slide final
+com prévia da aula 02, e os 16 aparelhos redesenhados com os ícones reais das
+tecnologias.
+
+## O que levar impresso
+
+| Material | Cópias | Quando |
+|---|---|---|
+| [Mapa da Turma](impressos/mapa-da-turma.md) | 25 | Slide 04 |
+| [Folha de Fechamento](impressos/folha-fechamento.md) | 25 | Slide 21 |
+| [Cenários](plano-b-dinamica/cenarios.md) | 5 | Só no Plano B |
+| [Mudanças de requisito](plano-b-dinamica/mudancas-requisito.md) | 5 | Só no Plano B |
+| [Folha de decisão](plano-b-dinamica/folha-decisao.md) | 5 | Só no Plano B |
 
 ## Estrutura das 4 horas
 
