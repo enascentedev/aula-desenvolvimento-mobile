@@ -2,6 +2,9 @@
 
 Referente a `Aula_01_Desenvolvimento_Mobile_v2.pptx` — **22 slides**.
 
+> **Este roteiro já está dentro do arquivo**, nas notas do apresentador. Ative
+> em Apresentação de Slides → Usar Modo de Exibição do Apresentador (F5).
+
 > Versão visual navegável, com cada slide renderizado ao lado do seu roteiro:
 > https://claude.ai/code/artifact/b6c16db4-6ba3-4f98-9f9a-a7d6b0fcbab1
 

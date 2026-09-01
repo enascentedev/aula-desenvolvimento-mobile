@@ -38,6 +38,25 @@ Explicar, com as próprias palavras:
 Roteiro visual com cada slide renderizado ao lado das notas de condução:
 https://claude.ai/code/artifact/b6c16db4-6ba3-4f98-9f9a-a7d6b0fcbab1
 
+### Notas do apresentador
+
+**Os 22 slides já vêm com o roteiro nas notas do apresentador.** Elas ficam
+invisíveis para a turma e aparecem só na sua tela, junto do cronômetro e da
+miniatura do próximo slide.
+
+**Como ativar:**
+
+1. Conecte o projetor (o Windows precisa estar em modo **Estender**, não Duplicar)
+2. No PowerPoint: aba **Apresentação de Slides** → marque **Usar Modo de Exibição do Apresentador**
+3. Inicie com **F5**
+
+Se o modo abrir na tela errada, use **Alternar Monitores** dentro dele. Sem
+projetor, dá para ver as notas em **Exibir → Anotações**.
+
+> As notas são geradas a partir da mesma fonte do roteiro visual
+> (`recursos/gerar-notas-apresentador.py`), então os dois nunca divergem.
+> Se editar o roteiro, rode o script de novo em vez de digitar à mão.
+
 **O que mudou na v2:** dois slides novos (08 fluxo Mobile, 13 Mitos), correção do Kotlin
 do slide 18 e do comando Expo do 19, linha de tempo de build no 20, slide final
 com prévia da aula 02, e os 16 aparelhos redesenhados com os ícones reais das
