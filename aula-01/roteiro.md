@@ -5,7 +5,7 @@ Referente a `Aula_01_Desenvolvimento_Mobile_v2.pptx` — **22 slides**.
 > Versão visual navegável, com cada slide renderizado ao lado do seu roteiro:
 > https://claude.ai/code/artifact/b6c16db4-6ba3-4f98-9f9a-a7d6b0fcbab1
 
-**Novos nesta versão:** slide 08 (PWA) e slide 13 (Mitos).
+**Novos nesta versão:** slide 08 (fluxo Mobile) e slide 13 (Mitos).
 **Corrigidos:** 18 (Kotlin), 19 (comando Expo), 20 (linha de tempo), 22 (final).
 
 ---
@@ -104,16 +104,38 @@ diferentes.
 
 ---
 
-### Slide 08 — E o meio-termo? PWA · 5 min 🆕
+### Slide 08 — Como funciona uma aplicação Mobile? · 8 min 🆕
 
-> "Existe um meio-termo que vocês conhecem na prática: o site que pede
-> 'adicionar à tela de início' e depois abre sem a barra do navegador."
+**Fluxo:** Usuário → App instalado → Sistema Operacional → API → Servidor / Dados
 
-**Por que este slide existe:** alguém da turma ia levantar isso de qualquer
-jeito. Sem resposta preparada, o binômio do slide 07 fica frágil.
+É o **espelho do slide 07**. Lá o caminho era Usuário → Navegador → Web App →
+Servidor. Aqui, o mesmo percurso no mundo mobile.
 
-**Foco:** reforça a tese do slide 06 em vez de contradizê-la — a diferença está
-em **como o software é executado e distribuído**, não no aparelho onde aparece.
+> "No slide anterior vimos o caminho de uma aplicação Web: o usuário abre o
+> navegador, acessa uma aplicação e ela conversa com um servidor.
+>
+> No Mobile, o caminho é outro. O usuário **toca no ícone** de um aplicativo que
+> já está instalado no aparelho.
+>
+> Esse aplicativo pode ser nativo, como um Android feito com Kotlin, ou
+> multiplataforma, com React Native ou Flutter.
+>
+> E isso não significa que ele tenha todos os dados dentro dele. Assim como na
+> Web, ele consome uma API e busca informação em um servidor.
+>
+> A grande diferença que quero que vocês percebam é **o ambiente onde a
+> aplicação está sendo executada**. Na Web temos o navegador. Aqui temos um
+> aplicativo instalado e integrado ao sistema operacional."
+
+**Frase de fechamento do slide:** *"Não precisamos abrir um navegador. O software
+está instalado no dispositivo e pode se integrar diretamente aos recursos do
+sistema operacional."*
+
+**Transição para o slide 09:**
+
+> "E quando eu digo que esse aplicativo está integrado ao sistema operacional, o
+> que isso significa na prática? É justamente o que vamos ver agora: câmera,
+> GPS, notificações, biometria, Bluetooth."
 
 ---
 

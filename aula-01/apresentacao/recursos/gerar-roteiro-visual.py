@@ -39,11 +39,12 @@ SLIDES = [
         ("pergunta", "“Pensem em um app bancário. O que muda quando eu tenho o aplicativo instalado em vez de entrar pelo navegador?” — biometria, notificações, câmera para QR Code."),
         ("foco", "Não é que Web seja inferior. São ambientes de execução e distribuição diferentes."),
     ]),
-    (8, "E o meio-termo? PWA", "5 min", "Conceito", [
-        ("novo", "Slide novo. Fecha uma lacuna real: os slides 7 e 9 tratavam Web × Mobile como binário."),
-        ("fala", "Existe um meio-termo que vocês conhecem na prática: o site que pede “adicionar à tela de início” e depois abre sem a barra do navegador."),
-        ("foco", "Reforça a tese do slide 6 em vez de enfraquecê-la: a diferença está em como o software é executado e distribuído, não no aparelho onde aparece."),
-        ("atencao", "Alguém da turma vai levantar isso de qualquer jeito. Melhor ter a resposta preparada."),
+    (8, "Como funciona uma aplicação Mobile?", "8 min", "Conceito", [
+        ("novo", "Slide novo. É o espelho estrutural do slide 07: lá o caminho era Usuário → Navegador → Web App → Servidor; aqui é Usuário → App instalado → Sistema Operacional → API → Servidor."),
+        ("fala", "No slide anterior vimos o caminho de uma aplicação Web. No Mobile, o usuário toca no ícone de um aplicativo que já está instalado no aparelho. Esse app pode ser nativo, como um Android feito com Kotlin, ou multiplataforma, com React Native ou Flutter."),
+        ("foco", "E isso não significa que o app tenha todos os dados dentro dele. Assim como na Web, ele consome uma API e busca informação em um servidor. A diferença está no ambiente onde a aplicação é executada."),
+        ("chave", "“Não precisamos abrir um navegador. O software está instalado no dispositivo e pode se integrar diretamente aos recursos do sistema operacional.”"),
+        ("transicao", "“E o que significa estar integrado ao sistema operacional? É o que vamos ver agora: câmera, GPS, notificações, biometria, Bluetooth.”"),
     ]),
     (9, "Recursos que tornam o mobile diferente", "7 min", "Conceito", [
         ("fala", "Quando desenvolvemos para mobile, olhamos o aparelho como parte da aplicação: câmera, GPS, biometria, Bluetooth, notificações, sensores."),
@@ -286,7 +287,7 @@ footer b{color:var(--tinta)}
   __SLIDES__
 
   <footer>
-    <p><b>Alterações desta versão:</b> dois slides novos (PWA e Mitos), correção do código Kotlin
+    <p><b>Alterações desta versão:</b> dois slides novos (fluxo Mobile e Mitos), correção do código Kotlin
     do slide 18 e do comando Expo do slide 19, linha de tempo de build no slide 20, slide final
     com prévia da aula 02, e redesenho dos 16 aparelhos com os ícones reais das tecnologias.</p>
     <p>Identidade visual da Escola Técnica Mesquita preservada.</p>

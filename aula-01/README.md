@@ -38,7 +38,7 @@ Explicar, com as próprias palavras:
 Roteiro visual com cada slide renderizado ao lado das notas de condução:
 https://claude.ai/code/artifact/b6c16db4-6ba3-4f98-9f9a-a7d6b0fcbab1
 
-**O que mudou na v2:** dois slides novos (08 PWA, 13 Mitos), correção do Kotlin
+**O que mudou na v2:** dois slides novos (08 fluxo Mobile, 13 Mitos), correção do Kotlin
 do slide 18 e do comando Expo do 19, linha de tempo de build no 20, slide final
 com prévia da aula 02, e os 16 aparelhos redesenhados com os ícones reais das
 tecnologias.
