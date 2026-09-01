@@ -1,0 +1,8 @@
+# Copie este arquivo para "local.properties" e ajuste o caminho do seu Android SDK.
+# Este arquivo NAO vai para o Git porque o caminho muda de maquina para maquina.
+#
+# Windows (barras invertidas escapadas):
+sdk.dir=C\:\dev\android-sdk
+#
+# Se voce usa Android Studio, o caminho normalmente e:
+# sdk.dir=C\:\Users\SEU_USUARIO\AppData\Local\Android\Sdk

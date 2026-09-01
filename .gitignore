@@ -1,0 +1,34 @@
+# ─── Node / Expo ───────────────────────────────────────────────
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ─── Android / Gradle ──────────────────────────────────────────
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.iml
+
+# Caminho do SDK: muda de máquina para máquina, não deve ser versionado
+local.properties
+
+# ─── IDE ───────────────────────────────────────────────────────
+.idea/
+*.swp
+.vscode/
+!.vscode/extensions.json
+
+# ─── Sistema ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Ferramentas ───────────────────────────────────────────────
+.playwright-mcp/

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Com Jetpack Compose a aparencia e definida em Kotlin (MaterialTheme).
+         Este tema XML so serve para a janela da Activity nao desenhar uma
+         ActionBar por cima da tela do Compose. -->
+    <style name="Theme.Tarefas" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0F1115</item>
+        <item name="android:windowBackground">#0F1115</item>
+    </style>
+</resources>
